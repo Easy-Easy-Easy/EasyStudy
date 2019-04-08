@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <parent>
+        <artifactId>EasyStudy</artifactId>
+        <groupId>com.easy</groupId>
+        <version>1.0</version>
+    </parent>
+    <!--<parent>
+        <groupId>org.springframework.boot</groupId>
+        <artifactId>spring-boot-starter-parent</artifactId>
+        <version>1.5.4.RELEASE</version>
+        <relativePath/> &lt;!&ndash; lookup parent from repository &ndash;&gt;
+    </parent>-->
+    <modelVersion>4.0.0</modelVersion>
+
+    <artifactId>Shopping</artifactId>
+    <dependencies>
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-web</artifactId>
+            <version>1.5.4.RELEASE</version>
+        </dependency>
+        <!-- druid阿里巴巴数据库连接池 -->
+        <dependency>
+            <groupId>com.alibaba</groupId>
+            <artifactId>druid</artifactId>
+            <version>LATEST</version>
+        </dependency>
+        <!--mysql-->
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-jdbc</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>mysql</groupId>
+            <artifactId>mysql-connector-java</artifactId>
+            <version>5.1.21</version>
+        </dependency>
+    </dependencies>
+
+</project>
