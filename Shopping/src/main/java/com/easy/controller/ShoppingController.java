@@ -17,7 +17,7 @@ public class ShoppingController {
       if(i>0){
           System.out.println("------------抢到了-------");
       }else{
-          System.out.println("------------没抢到-------");
+          System.err.println("------------没抢到-------");
       }
     }
 }
