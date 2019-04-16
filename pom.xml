@@ -11,6 +11,8 @@
     <modules>
         <module>Proxy</module>
         <module>Shopping</module>
+        <module>SpringDemo</module>
+        <module>MybatisStudy</module>
     </modules>
 
     <dependencies>
