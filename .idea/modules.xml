@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/Easy_Study.iml" filepath="$PROJECT_DIR$/.idea/Easy_Study.iml" />
+      <module fileurl="file://$PROJECT_DIR$/IOStudy/IOStudy.iml" filepath="$PROJECT_DIR$/IOStudy/IOStudy.iml" />
+      <module fileurl="file://$PROJECT_DIR$/MybatisStudy/MybatisStudy.iml" filepath="$PROJECT_DIR$/MybatisStudy/MybatisStudy.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Proxy/Proxy.iml" filepath="$PROJECT_DIR$/Proxy/Proxy.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Shopping/Shopping.iml" filepath="$PROJECT_DIR$/Shopping/Shopping.iml" />
+      <module fileurl="file://$PROJECT_DIR$/SpringDemo/SpringDemo.iml" filepath="$PROJECT_DIR$/SpringDemo/SpringDemo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/SpringMvcStudy/SpringMvcStudy.iml" filepath="$PROJECT_DIR$/SpringMvcStudy/SpringMvcStudy.iml" />
+    </modules>
+  </component>
+</project>

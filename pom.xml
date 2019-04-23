@@ -13,8 +13,8 @@
         <module>Shopping</module>
         <module>SpringDemo</module>
         <module>MybatisStudy</module>
-        <module>SocketStudy</module>
         <module>IOStudy</module>
+        <module>SpringMvcStudy</module>
     </modules>
 
     <dependencies>
