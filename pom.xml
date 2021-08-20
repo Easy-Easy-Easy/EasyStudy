@@ -15,6 +15,8 @@
         <module>MybatisStudy</module>
         <module>IOStudy</module>
         <module>SpringMvcStudy</module>
+        <module>JavaBase</module>
+        <module>algorithm</module>
     </modules>
 
     <dependencies>
