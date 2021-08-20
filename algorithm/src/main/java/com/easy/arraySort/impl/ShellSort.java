@@ -17,6 +17,7 @@ public class ShellSort implements IArraySort {
     public int[] sort(int[] sourceArray) {
         int length = sourceArray.length;
         int step = length;
+        //以不同的步长分组，在组内排序
         while ((step = step / 2) > 0) {
             for (int i = step; i < length; i++) {
                 int j = i - step;

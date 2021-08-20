@@ -18,8 +18,10 @@ public class InsertionSort implements IArraySort {
     @Override
     public int[] sort(int[] sourceArray) {
         int length = sourceArray.length;
+        //找一个分界点，左边是已经排好序的数组
         for (int i = 1; i < length; i++) {
             int j = i - 1;
+            //左边的数组的最右边开始，为当前值找到一个合适的位置插入
             while (j >= 0 && sourceArray[j] > sourceArray[j + 1]) {
                 int tmp = sourceArray[j];
                 sourceArray[j] = sourceArray[j + 1];
