@@ -28,7 +28,8 @@ public class ArraySortTest {
         //IArraySort iArraySort = new InsertionSort();
         //IArraySort iArraySort = new ShellSort();
         //IArraySort iArraySort = new MergeSort();
-        IArraySort iArraySort = new QuickSort();
+        //IArraySort iArraySort = new QuickSort();
+        IArraySort iArraySort = new HeapSort();
         System.out.println(Arrays.toString(iArraySort.sort(sourceArray)));
     }
 }
