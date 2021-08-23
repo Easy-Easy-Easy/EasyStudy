@@ -4,7 +4,17 @@ import com.easy.arraySort.IArraySort;
 
 /**
  * @ClassName HeapSort
- * @Description TODO
+ * @Description 堆排序
+ * 思路：构造一个大顶推
+ * 三个节点的关系
+ * 假设父节点下标为i，
+ * 左子节点下标为i*2 +1
+ * 右子节点下标为2*i+2
+ * <p>
+ * 假设子节点下标为i
+ * 父节点下标为 i/2-1;
+ *
+ *
  * @Author zheng
  * @Date 2021/8/22 9:24
  * @Version 1.0
