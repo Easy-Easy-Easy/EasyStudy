@@ -198,6 +198,7 @@ public class Solution {
     }
 
     public static void main(String[] args) {
+
         ListNode node = new ListNode(-1);
         ListNode tmp = node;
         for (int i = 1; i < 6; i++) {
