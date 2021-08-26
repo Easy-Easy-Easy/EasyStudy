@@ -171,15 +171,30 @@ public class Solution {
      **/
     public ListNode middleNode(ListNode head) {
         int count = 0;
-        ListNode pre = head, tail = head;
-        while (tail != null) {
-            tail = tail.next;
+        ListNode quick = head, slow = head;
+        while (quick != null) {
+            quick = quick.next;
             count++;
             if (count % 2 == 0) {
-                pre = pre.next;
+                slow = slow.next;
             }
         }
-        return pre;
+        return slow;
+    }
+
+    /**
+     * @return com.easy.leetcode.listNode.ListNode
+     * @Description 876. 链表的中间结点
+     * @Date 2021/8/26 14:21
+     * @Param [head]
+     **/
+    public ListNode middleNode1(ListNode head) {
+        ListNode slow = head, quick = head;
+        while (quick != null && quick.next != null) {
+            quick = quick.next.next;
+            slow = slow.next;
+        }
+        return slow;
     }
 
     public static void main(String[] args) {
