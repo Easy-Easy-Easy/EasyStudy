@@ -4,7 +4,7 @@ import com.easy.leetcode.ListNode;
 
 /**
  * @ClassName MiddleNode876
- * @Description TODO
+ * @Description  876. 链表的中间结点
  * @Author zheng
  * @Date 2021/8/26 17:37
  * @Version 1.0
