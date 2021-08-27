@@ -4,19 +4,19 @@ import com.easy.leetcode.ListNode;
 
 /**
  * @ClassName MyHashMap
- * @Description TODO
+ * @Description 设计哈希映射
  * @Author zheng
  * @Date 2021/8/27 9:41
  * @Version 1.0
  **/
-public class MyHashMap {
+public class MyHashMap706 {
     HashListNode[] array;
     int length;
 
     /**
      * Initialize your data structure here.
      */
-    public MyHashMap() {
+    public MyHashMap706() {
         length = 628;
         array = new HashListNode[628];
     }
