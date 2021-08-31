@@ -36,7 +36,7 @@ public class QuickSort implements IArraySort {
         int pivot = left;
         int j = pivot + 1;
         //此处right是索引值，所以是小于等于
-        for (int i = j; i <= right; i++) {
+         for (int i = j; i <= right; i++) {
             //找到比基准点小的值，则交换
             if (arr[i] < arr[pivot]) {
                 swap(arr, i, j);

@@ -20,6 +20,9 @@ public class ArraySortTest {
         for (int i = 0; i < size; i++) {
             sourceArray[i] = random.nextInt(100);
         }
+        sourceArray = new int[]{
+                34, 32, 73, 82, 56, 48, 78, 58, 66, 60
+        };
         System.out.println(Arrays.toString(sourceArray));
         System.out.println("-------------------------------------");
         //int[] sourceArray = new int[]{5, 7, 3, 4, 2};
@@ -28,9 +31,9 @@ public class ArraySortTest {
         //IArraySort iArraySort = new InsertionSort();
         //IArraySort iArraySort = new ShellSort();
         //IArraySort iArraySort = new MergeSort();
-        //IArraySort iArraySort = new QuickSort();
+        IArraySort iArraySort = new QuickSort();
         //IArraySort iArraySort = new HeapSort();
-        IArraySort iArraySort = new CountingSort();
+        //IArraySort iArraySort = new CountingSort();
         System.out.println(Arrays.toString(iArraySort.sort(sourceArray)));
     }
 }
